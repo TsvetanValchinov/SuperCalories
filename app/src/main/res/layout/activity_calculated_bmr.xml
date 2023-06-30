@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34B5FB">
+
+    <TextView
+        android:id="@+id/BMRInfoLabel"
+        android:layout_width="329dp"
+        android:layout_height="98dp"
+        android:text="@string/BMRInfo_text"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/caloriesTextView"
+        android:layout_width="275dp"
+        android:layout_height="88dp"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/activityRadioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <TextView
+        android:id="@+id/activityChooserLabel"
+        android:layout_width="335dp"
+        android:layout_height="56dp"
+        android:text="@string/chooseLevel_text"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <RadioGroup
+        android:id="@+id/activityRadioGroup"
+        android:layout_width="413dp"
+        android:layout_height="317dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722">
+
+        <RadioButton
+            android:id="@+id/SedentaryActivityRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/sedentary_activity"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/LightActivityRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/light_activity"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ModerateActivityRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/moderate_activity"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/ActiveActivityRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/active_activity"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/VeryActiveActivityRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/veryActive_activity"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_blue"
+        android:onClick="calculateDifferentCases"
+        android:text="@string/calculate_button"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

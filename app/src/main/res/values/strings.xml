@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SuperCalories</string>
+    <string name="chooseFormula_text">Choose which formula you want to use:</string>
+    <string name="enterWeight_text">Enter your weight( in kgs):</string>
+    <string name="enterHeight_text">Enter your height( in cm ):</string>
+    <string name="enterAge_text">Enter your age:</string>
+    <string name="enterFatPercentage_text">Enter your body fat percentage (from 0 to 100 ):</string>
+    <string name="enterGender_text">Choose your gender:</string>
+    <string name="ChooserFormula_text">Choose which formula to use:</string>
+    <string name="gender_male">male</string>
+    <string name="gender_female">female</string>
+    <string name="formula_Mifflin">Mifflin-St Jeor Equation</string>
+    <string name="formula_Harris">Harris-Benedict Equation</string>
+    <string name="formula_Katch">Katch-McArdle Formula</string>
+    <string name="calculate_button2">Calcucate BMR</string>
+    <string name="BMRInfo_text">Your Basic Metabolic Rate(BMR) is:</string>
+    <string name="empty_editText">0</string>
+    <string name="chooseLevel_text">Choose your level of activity</string>
+    <string name="sedentary_activity">SEDENTARY(little or no exercise)</string>
+    <string name="light_activity">LIGHT(exercise 1–3 times/week)</string>
+    <string name="moderate_activity">MODERATE(exercise 4–5 times/week)</string>
+    <string name="active_activity">ACTIVE(exercise daily or intense training 3–4 times/week)</string>
+    <string name="veryActive_activity">VERY ACTIVE(intense training 6–7 times/week)</string>
+    <string name="calculate_button">Calcucate</string>
+    <string name="gain_1kg">To gain 1kg per week:</string>
+    <string name="gain_0.5kg">To gain 0.5kg per week:</string>
+    <string name="gain_0.25kg">To gain 0.25kg per week:</string>
+    <string name="lose_1kg">To lose 1kg per week:</string>
+    <string name="lose_0.5kg">To lose 0.5kg per week:</string>
+    <string name="lose_0.25kg">To lose 0.25kg per week:</string>
+
+</resources>

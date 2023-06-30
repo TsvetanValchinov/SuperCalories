@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34B5FB">
+
+    <EditText
+        android:id="@+id/fatPercentageValue"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:text="@string/empty_editText"
+        android:textSize="24sp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <EditText
+        android:id="@+id/ageValue"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:text="@string/empty_editText"
+        android:textSize="24sp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <EditText
+        android:id="@+id/heightValue"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:text="@string/empty_editText"
+        android:textSize="24sp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <TextView
+        android:id="@+id/introducingLabel"
+        android:layout_width="223dp"
+        android:layout_height="46dp"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/weightLabel"
+        android:layout_width="202dp"
+        android:layout_height="71dp"
+        android:text="@string/enterWeight_text"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <TextView
+        android:id="@+id/heightLabel"
+        android:layout_width="198dp"
+        android:layout_height="61dp"
+        android:text="@string/enterHeight_text"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
+
+    <TextView
+        android:id="@+id/ageLabel"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:text="@string/enterAge_text"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347" />
+
+    <TextView
+        android:id="@+id/fatPercentageLabel"
+        android:layout_width="177dp"
+        android:layout_height="74dp"
+        android:text="@string/enterFatPercentage_text"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <TextView
+        android:id="@+id/chooseGenderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterGender_text"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <TextView
+        android:id="@+id/chooseFormulaLabel"
+        android:layout_width="352dp"
+        android:layout_height="36dp"
+        android:text="@string/chooseFormula_text"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <EditText
+        android:id="@+id/weightValue"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:text="@string/empty_editText"
+        android:textSize="24sp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <RadioGroup
+        android:id="@+id/gender_RadioGroup"
+        android:layout_width="184dp"
+        android:layout_height="37dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545">
+
+        <RadioButton
+            android:id="@+id/maleRadioBtn"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/gender_male"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioBtn"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/gender_female"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="179dp"
+            tools:layout_editor_absoluteY="458dp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/formula_RadioGroup"
+        android:layout_width="253dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753">
+
+        <RadioButton
+            android:id="@+id/mifflinFormulaRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="@string/formula_Mifflin"
+            android:textSize="19sp"
+            android:buttonTint="@color/background_blue" />
+
+        <RadioButton
+            android:id="@+id/harrisFormulaRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:buttonTint="@color/background_blue"
+            android:text="@string/formula_Harris"
+            android:textSize="19sp" />
+
+        <RadioButton
+            android:id="@+id/katchFormulaRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="@string/formula_Katch"
+            android:textSize="19sp"
+            android:buttonTint="@color/background_blue" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/calculateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_blue"
+        android:onClick="CalculateBMR"
+        android:text="@string/calculate_button2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
